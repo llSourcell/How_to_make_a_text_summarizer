@@ -1,6 +1,10 @@
 # How_to_make_a_text_summarizer
 This is the code for "How to Make a Text Summarizer - Intro to Deep Learning #10" by Siraj Raval on Youtube
 
+# Coding Challenge - Due Date - Thursday, March 23rd at 12 PM PST
+
+The challenge for this video is to make a text summarizer for a set of articles with Keras. You can use any textual dataset to do this. By doing this you'll learn more about encoder-decoder architecture and the role of attention in deep learning. Good luck!
+
 ## Overview
 
 This is the code for [this](https://youtu.be/ogrJaOIuBx4) video on Youtube by Siraj Raval as part of the Deep Learning Nanodegree with Udacity. We're using an [encoder-decoder](https://www.tensorflow.org/tutorials/seq2seq) architecture to generate a headline from a news article.
@@ -50,9 +54,5 @@ Good (cherry picking) examples of headlines generated
 ## Examples of attention weights
 ![attention weights](./attention_weights.png)
 
-# Coding Challenge - Due Date - Thursday, March 23rd at 12 PM PST
-
-The challenge for this video is to make a text summarizer for a set of articles with Keras. You can use any textual dataset to do this. By doing this you'll learn more about encoder-decoder architecture and the role of attention in deep learning. Good luck!
-
-##Credits
+## Credits
 The credit for this code goes to [udibr](https://github.com/udibr) i've merely created a wrapper to make it easier to get started. 
