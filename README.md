@@ -1,11 +1,11 @@
 # How_to_make_a_text_summarizer
 This is the code for "How to Make a Text Summarizer - Intro to Deep Learning #10" by Siraj Raval on Youtube
 
-##Overview
+## Overview
 
 This is the code for [this](https://youtu.be/ogrJaOIuBx4) video on Youtube by Siraj Raval as part of the Deep Learning Nanodegree with Udacity. 
 
-##Dependencies
+## Dependencies
 
 * [Tensorflow](https://www.tensorflow.org/versions/r0.10/get_started/os_setup.html) or [Theano](http://deeplearning.net/software/theano/install.html)
 * Keras 
@@ -13,7 +13,7 @@ This is the code for [this](https://youtu.be/ogrJaOIuBx4) video on Youtube by Si
 
 Use [pip](https://pypi.python.org/pypi/pip) to install any missing dependencies 
 
-##Basic Usage
+## Basic Usage
 
 ### Data
 The video example is made from the text at the start of the article, which I call description (or `desc`),
