@@ -3,7 +3,7 @@ This is the code for "How to Make a Text Summarizer - Intro to Deep Learning #10
 
 ## Overview
 
-This is the code for [this](https://youtu.be/ogrJaOIuBx4) video on Youtube by Siraj Raval as part of the Deep Learning Nanodegree with Udacity. 
+This is the code for [this](https://youtu.be/ogrJaOIuBx4) video on Youtube by Siraj Raval as part of the Deep Learning Nanodegree with Udacity. We're using an [encoder-decoder](https://www.tensorflow.org/tutorials/seq2seq) architecture to generate a headline from a news article.
 
 ## Dependencies
 
