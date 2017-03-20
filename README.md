@@ -1,5 +1,5 @@
 # How_to_make_a_text_summarizer
-This is the code for "How to Make a Text Summarizer - Intro to Deep Learning #10" by Siraj Raval on Youtube
+This is the code for "How to Make a Text Summarizer - Intro to Deep Learning #10" by Siraj Raval on Youtube.
 
 # Coding Challenge - Due Date - Thursday, March 23rd at 12 PM PST
 
@@ -15,7 +15,7 @@ This is the code for [this](https://youtu.be/ogrJaOIuBx4) video on Youtube by Si
 * Keras 
 * python-Levenshtein (pip install python-levenshtein)
 
-Use [pip](https://pypi.python.org/pypi/pip) to install any missing dependencies 
+Use [pip](https://pypi.python.org/pypi/pip) to install any missing dependencies.
 
 ## Basic Usage
 
@@ -34,20 +34,20 @@ I ignore the `keywrods` information so you can place `None`.
 ### Build a vocabulary of words
 The [vocabulary-embedding](./vocabulary-embedding.ipynb)
 notebook describes how a dictionary is built for the tokens and how
-an initial embedding matrix is built from [GloVe](http://nlp.stanford.edu/projects/glove/)
+an initial embedding matrix is built from [GloVe](http://nlp.stanford.edu/projects/glove/).
 
 ### Train a model
-[train](./train.ipynb) notebook describes how a model is trained on the data using [Keras](http://keras.io/)
+The [train](./train.ipynb) notebook describes how a model is trained on the data using [Keras](http://keras.io/).
 
 ### Use model to generate new headlines
-[predict](./predict.ipynb) generate headlines by the trained model and
+The [predict](./predict.ipynb) notebook generate headlines by the trained model and
 showes the attention weights used to pick words from the description.
 The text generation includes a feature which was
 not described in the original paper, it allows for words that are outside
 the training vocabulary to be copied from the description to the generated headline.
 
 ## Examples of headlines generated
-Good (cherry picking) examples of headlines generated
+Good (cherry-picked) examples of headlines generated:
 ![cherry picking of generated headlines](./cherry_picking.png)
 ![cherry picking of generated headlines](./cherry_picking1.png)
 
