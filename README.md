@@ -27,7 +27,7 @@ and the text of the original headline (or `head`). The texts should be already t
 Once you have the data ready save it in a python pickle file as a tuple:
 `(heads, descs, keywords)` were `heads` is a list of all the head strings,
 `descs` is a list of all the article strings in the same order and length as `heads`.
-I ignore the `keywrods` information so you can place `None`.
+I ignore the `keywords` information so you can place `None`.
 
 [Here](http://opendata.stackexchange.com/questions/4981/dataset-of-major-newspapers-content) is a link on how to get similar datasets
 
